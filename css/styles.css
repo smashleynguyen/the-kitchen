@@ -1,0 +1,183 @@
+/* Style.css */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+
+}
+
+h1 {
+  font-size: 45px;
+  font-family: 'Fredoka One';
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: 'Fredoka One';
+}
+
+.episode-boiler {
+  color: #c2c2c2;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+.restaurant-name {
+  color: #d58c2d;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+.main-logo {
+  padding-bottom: 10px;
+  text-shadow: 2px 2px #d58c2d;
+}
+
+.kitchen {
+  font-size: 24px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-family: 'Fredoka One';
+  text-shadow: 1px 1px #eeebed;
+  color: #d58c2d;
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  line-height: 1.5em;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+#container {
+
+}
+
+
+
+header {
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+#intro {
+  width:100%;
+  padding-top: 20px;
+}
+
+#episode-1 {
+  width: 80%;
+  padding-left: 20%;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.about {
+    position: absolute;
+    z-index: 999999999999;
+    left: 24px;
+    top: 22px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-family: 'Fredoka One';
+}
+
+.about a {
+  color: white;
+  text-shadow: 1px 1px #d58c2d;
+}
+
+#cover-image {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.post-titles {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    color: #fff;
+    top: 30%;
+    width: 100%;
+    margin-top: -122px;
+}
+
+.welcome-note {
+  width: 80%;
+  padding-left: 20%;
+  float: left;
+  padding-bottom: 40px;
+}
+
+.col-md-6 {
+  padding: 10px 0px 10px 0px;
+}
+
+/* ===========
+   Mobile CSS
+   =========== */
+
+@media only screen and (max-width:768px) {
+
+  .welcome-note {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 40px;
+  }
+
+  #intro {
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #episode-1 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+  }
+
+}

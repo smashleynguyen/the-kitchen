@@ -30,6 +30,13 @@ h4 {
   font-family: 'Fredoka One';
 }
 
+#cover-image {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
 .episode-boiler {
   color: #c2c2c2;
   text-transform: uppercase;
@@ -48,6 +55,10 @@ h4 {
 .main-logo {
   padding-bottom: 10px;
   text-shadow: 2px 2px #d58c2d;
+}
+
+.explainer {
+  padding-bottom: 20px;
 }
 
 .kitchen {
@@ -72,9 +83,7 @@ p {
   float: right;
 }
 
-#container {
 
-}
 
 
 
@@ -90,49 +99,51 @@ main {
 }
 
 footer {
-
+  float: both;
 }
 
-#intro {
-  width:100%;
-  padding-top: 20px;
-}
+
 
 #episode-1 {
   width: 80%;
   padding-left: 20%;
-  float: left;
   padding-bottom: 40px;
 }
 
-.about {
-    position: absolute;
-    z-index: 999999999999;
-    left: 24px;
-    top: 22px;
-    border: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding: 4px 10px;
-    font-size: 12px;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.2);
-    text-decoration: none;
-    font-family: 'Fredoka One';
+#episode-2 {
+  width: 80%;
+  padding-left: 20%;
+  padding-bottom: 40px;
 }
 
-.about a {
+.restaurant-photo {
+  height: 200px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.footer-content {
+  padding-top: 30px;
+}
+
+.btn-lg {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-decoration: none;
+  background: none;
+  font-family: 'Fredoka One';
+}
+
+.contact a {
   color: white;
   text-shadow: 1px 1px #d58c2d;
 }
 
-#cover-image {
-    display: block;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
 
 .post-titles {
     position: absolute;
@@ -147,13 +158,28 @@ footer {
 .welcome-note {
   width: 80%;
   padding-left: 20%;
-  float: left;
   padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .col-md-6 {
-  padding: 10px 0px 10px 0px;
+  padding-bottom: 10px;
 }
+
+.dashed-box {
+  position: relative;
+  z-index: 1;
+  height: 8em;
+  background: #f1f3de;
+  text-align: center;
+}
+
+.portraits {
+  display: none;
+}
+
+
+
 
 /* ===========
    Mobile CSS
@@ -163,21 +189,54 @@ footer {
 
   .welcome-note {
     width: 100%;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 40px;
+  }
+
+  .explainer {
+    display: none;
+  }
+
+  .kitchen {
+    display: none;
+  }
+
+  .portraits {
+    color: #d58c2d;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    padding-bottom: 10px;
+    display: block;
   }
 
   #intro {
     width:100%;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   #episode-1 {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 40px;
+    float: none;
   }
+
+  #episode-2 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    float: none;
+  }
+
+.restaurant-photo {
+    width: 100%;
+    text-align: center;
+  }
+
+
 
 }

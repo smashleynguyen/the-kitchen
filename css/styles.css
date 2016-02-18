@@ -64,7 +64,16 @@ h4 {
 .kitchen {
   font-size: 24px;
   padding-top: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: 'Fredoka One';
+  text-shadow: 1px 1px #eeebed;
+  color: #d58c2d;
+}
+
+.more-info {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   font-family: 'Fredoka One';
   text-shadow: 1px 1px #eeebed;
   color: #d58c2d;
@@ -73,6 +82,31 @@ h4 {
 p {
   font-family: 'Alegreya', serif;
   line-height: 1.5em;
+  hyphens: auto;
+}
+
+ul li {
+  font-family: 'Alegreya', serif;
+  line-height: 1.5em;
+  hyphens: auto;
+  margin-left: 20px;
+  list-style: disc;
+}
+
+.important {
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #e1e1e1;
+  font-style: italic;
+  text-decoration: none;
 }
 
 .align-left {
@@ -84,7 +118,10 @@ p {
 }
 
 
-
+.social {
+  height: 30px;
+  width: 30px;
+}
 
 
 header {
@@ -116,10 +153,14 @@ footer {
   padding-bottom: 40px;
 }
 
+.row {
+  padding: 8px 0px 8px 0px;
+}
+
 .restaurant-photo {
-  height: 200px;
-  width: 300px;
-  padding-left: 10px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-content {
@@ -162,11 +203,7 @@ footer {
   padding-top: 20px;
 }
 
-.col-md-6 {
-  padding-bottom: 10px;
-}
-
-.dashed-box {
+.footer-box {
   position: relative;
   z-index: 1;
   height: 8em;
@@ -234,9 +271,13 @@ footer {
 
 .restaurant-photo {
     width: 100%;
-    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 5px;
   }
 
+.episode-soundcloud {
+  width: 100%;
+}
 
 
 }
